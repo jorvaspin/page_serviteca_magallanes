@@ -161,6 +161,20 @@
   color: #f9a826;
 }
 
+.whatsapp {
+  width:60px;
+  height:60px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
 @media only screen and (max-width: 768px) {
   .header__top,
   .header__middle,
@@ -169,12 +183,18 @@
   }
 
   .mobile__menu {
-    display: block;
+    display: flex;
     width: 100%;
   }
 
-  .mobile__menu img{
-    float: right;
+  .mobile__menu .logo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile__menu .logo img{
+    width: 50px;
+    margin-top: -5px;
   }
 
   .navigation {

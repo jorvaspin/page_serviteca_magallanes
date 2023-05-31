@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../../styles/footer.css";
 
 const Footer = () => {
@@ -12,18 +12,16 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="4" md="4" sm="12">
-            <div className="logo footer__logo">
+            {/* <div className="logo footer__logo">
               <h1>
-                <Link to="/home" className=" d-flex align-items-center gap-2">
+                <Link to="/inicio" className=" d-flex align-items-center gap-2">
                    <img src="https://res.cloudinary.com/dr3zgzxx0/image/upload/v1684513017/logo_magallanes_bvqpva.png" width={65} alt="" />
                 </Link>
               </h1>
-            </div>
+            </div> */}
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              Calidad y transparencia es nuestro eslogan. Día a día nos esforzamos por generar la llegada de nuevos clientes, pero por sobretodo 
+              nos colma de satisfacción el retorno de los mismos.
             </p>
           </Col>
 
@@ -71,7 +69,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i className="ri-copyright-line"></i>Copyright {year}, Desarrollada Por
-                <a href="https://wa.me/56961545782" target="_blank" rel="noopener noreferrer"> Jorge Vásquez Pinto</a> . All rights reserved.
+                <a href="https://wa.me/56961545782" target="_blank" rel="noopener noreferrer"> Jorge Vásquez Pinto</a>
               </p>
             </div>
           </Col>

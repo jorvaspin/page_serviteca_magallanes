@@ -15,6 +15,7 @@ const HeroSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
+    dots: false
   };
   return (
     <Slider {...settings} className="hero__slider">
@@ -31,7 +32,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">Revisión y Reparación de autos en minutos</h4>
-            <h1 className="text-light mb-4">Mécanicos expertos</h1>
+            <h1 className="text-light mb-4">Mecánicos expertos</h1>
           </div>
         </Container>
       </div>

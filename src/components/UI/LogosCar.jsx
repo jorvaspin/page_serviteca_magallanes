@@ -40,7 +40,7 @@ const LogosCar = () => {
           </Col>
           <Col lg="12" md="12" sm="12">
           <div className="title_bottom">
-              <h4>El servicio que tu vehículo necesita</h4>
+              <h4 style={{fontWeight: 'bold'}}>El servicio que tu vehículo necesita</h4>
             </div>
           </Col>
         </Row>

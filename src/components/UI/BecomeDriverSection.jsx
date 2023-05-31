@@ -7,7 +7,7 @@ import driverImg from "../../assets/all-images/toyota-offer-2.png";
 const BecomeDriverSection = () => {
 
   const toWsp = () => {
-    window.open("https://wa.me/569", "_blank");
+    window.open("https://wa.me/56961412094", "_blank");
   };
 
   return (
@@ -25,7 +25,7 @@ const BecomeDriverSection = () => {
             </h2>
 
             <button onClick={toWsp} className="btn become__driver-btn mt-4">
-            <i className="ri-whatsapp-line"></i> Contáctanos vía WhatsApp
+            <i className="ri-p-line"></i> Contáctanos vía WhatsApp
             </button>
           </Col>
         </Row>

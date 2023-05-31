@@ -49,7 +49,7 @@ const Header = () => {
             <Col lg="2" md="3" sm="4">
               <div className="logo">
                 <h1>
-                  <Link to="/home" className=" d-flex align-items-center gap-2">
+                  <Link to="/inicio" className=" d-flex align-items-center gap-2">
                     <img src="https://res.cloudinary.com/dr3zgzxx0/image/upload/v1684513017/logo_magallanes_bvqpva.png" width={55} alt="" />
                   </Link>
                 </h1>
@@ -102,9 +102,13 @@ const Header = () => {
         <Container>
           <div className="navigation__wrapper d-flex align-items-center justify-content-between">
             <span className="mobile__menu">
-              <i className="ri-menu-line" onClick={toggleMenu}></i>
+              <div>
+                <i className="ri-menu-line" onClick={toggleMenu}></i>
+              </div>
               <div className="logo">
-               <img src="https://res.cloudinary.com/dr3zgzxx0/image/upload/v1684513017/logo_magallanes_bvqpva.png" width={50} alt="" />
+                <Link to="/inicio">
+                  <img src="https://res.cloudinary.com/dr3zgzxx0/image/upload/v1684513017/logo_magallanes_bvqpva.png" width={50} alt="" />
+                </Link>
               </div>
             </span>
 

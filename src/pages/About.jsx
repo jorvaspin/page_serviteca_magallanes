@@ -1,6 +1,6 @@
 import React from "react";
 
-import CommonSection from "../components/UI/CommonSection";
+// import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
@@ -9,11 +9,18 @@ import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import driveImg from "../assets/all-images/drive.jpg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
+import useSEO from "../hook/useSEO";
 
 const About = () => {
+  // usamos el hook useSEO
+  let title = 'Quiénes Somos - Taller Automotriz Santiago'
+  let descripcion_page = 'Especialistas en el Rectificado de discos y tambores de frenos, Alineación y balanceo económicos en santiago, cambio de aceite, mecánica en general, neumáticos, frenos, suspensión, tren delantero, amortiguadores, alineación, balanceo'
+
+  useSEO(title, descripcion_page);
+
   return (
     <Helmet title="Taller Automotriz | Santiago">
-      <CommonSection title="Serviteca Magallanes" />
+      {/* <CommonSection title="Serviteca Magallanes" /> */}
       <AboutSection aboutclassName="aboutPage" />
 
       <section className="about__page-section">
@@ -46,7 +53,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">¿Necesitas ayuda inmediata?</h6>
-                    <h4>+56 9 6141 2094</h4>
+                    <h4 className="section__phone">+56 9 6141 2094</h4>
                   </div>
                 </div>
               </div>
@@ -57,7 +64,7 @@ const About = () => {
 
       <BecomeDriverSection />
 
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -67,7 +74,7 @@ const About = () => {
             <OurMembers />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };

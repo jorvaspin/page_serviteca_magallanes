@@ -1,3 +1,7 @@
+.about__section_home{
+  padding-top: 0px;
+}
+
 .about__section-item {
   column-gap: 3rem;
 }
@@ -31,7 +35,19 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .about__section {
-    margin-top: 280px;
+  .about__section_home .about__section {
+    margin-top: 80px;
+  }
+
+.about__section_home{
+  padding-top: 50px;
+}
+
+  .about__section_home .about__section .about__section-content{
+    margin-top: 0px !important;
+  }
+
+  .about__section_home .about__section .img_logo{
+    margin-top: 0px;
   }
 }

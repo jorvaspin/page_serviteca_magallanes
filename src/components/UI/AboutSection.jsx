@@ -7,18 +7,13 @@ const AboutSection = ({ aboutClass }) => {
   return (
     <section
       className="about__section"
-      style={
-        aboutClass === "aboutPage"
-          ? { marginTop: "0px" }
-          : { marginTop: "0px" }
-      }
     >
       <Container>
         <Row>
           <Col lg="6" md="6">
             <div className="about__section-content">
               <h4 className="section__subtitle">Sobre Nosotros</h4>
-              <h2 className="section__title">Bienvenidos a Serviteca Magallanes</h2>
+              <h2 className="section__title">Serviteca Magallanes</h2>
               <p className="section__description">
               Taller Automotriz donde el cliente es prioridad. Nos esmeramos por desplegar nuestros recursos humanos, técnicos y logísticos por lograr la mas absoluta satisfacción en el servicio.
               </p>
@@ -30,31 +25,46 @@ const AboutSection = ({ aboutClass }) => {
                   <Col lg="6" md="6">
                   <div className="about__section-item d-flex align-items-center">
                     <p className="section__description d-flex align-items-center gap-2">
-                      <i className="ri-checkbox-circle-line"></i> Atención de primera categoría, en nuestras dependencias
+                      <i className="ri-checkbox-circle-line"></i> Atención de primera categoría.
                     </p>
                   </div>
                   </Col>
                   <Col lg="6" md="6">
                   <div className="about__section-item d-flex align-items-center">
                     <p className="section__description d-flex align-items-center gap-2">
-                      <i className="ri-checkbox-circle-line"></i> Garantía en mano de obra y repuestos
+                      <i className="ri-checkbox-circle-line"></i> Garantía en mano de obra y repuestos.
                     </p>
                   </div>
                   </Col>
                   <Col lg="6" md="6">
                   <div className="about__section-item d-flex align-items-center">
                     <p className="section__description d-flex align-items-center gap-2">
-                      <i className="ri-checkbox-circle-line"></i> Atención personalizada
+                      <i className="ri-checkbox-circle-line"></i> Atención personalizada.
                     </p>
                   </div>
                   </Col>
                   <Col lg="6" md="6">
                   <div className="about__section-item d-flex align-items-center">
                     <p className="section__description d-flex align-items-center gap-2">
-                      <i className="ri-checkbox-circle-line"></i> Más de 25 años de confianza y experiencia en el mercado avalan nuestra expertise.
+                      <i className="ri-checkbox-circle-line"></i> Más de 10 años de confianza.
                     </p>
                   </div>
                   </Col>
+                  <Col lg="6" md="6">
+                  <div className="about__section-item d-flex align-items-center">
+                    <p className="section__description d-flex align-items-center gap-2">
+                      <i className="ri-checkbox-circle-line"></i> Experiencia en el mercado automotriz.
+                    </p>
+                  </div>
+                  </Col>
+                  <Col lg="6" md="6">
+                  <div className="about__section-item d-flex align-items-center">
+                    <p className="section__description d-flex align-items-center gap-2">
+                      <i className="ri-checkbox-circle-line"></i> Rápidez y eficiencia en el servicio.
+                    </p>
+                  </div>
+                  </Col>
+                  
                 </Row>
               </Container>
               
@@ -65,8 +75,8 @@ const AboutSection = ({ aboutClass }) => {
           </Col>
 
           <Col lg="6" md="6">
-            <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+            <div className="text-center">
+              <img src='https://res.cloudinary.com/dr3zgzxx0/image/upload/v1684513017/logo_magallanes_bvqpva.png' alt="" className="w-50 img_logo" />
             </div>
           </Col>
         </Row>

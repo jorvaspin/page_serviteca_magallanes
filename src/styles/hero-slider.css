@@ -4,24 +4,24 @@
 }
 
 .slider__item-01 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("https://res.cloudinary.com/dr3zgzxx0/image/upload/v1685348112/2021-06-23_cwu8al.jpg");
+  background: linear-gradient(rgb(0, 13, 107, 0.8), rgb(0, 13, 107, 0.8)),
+    url("https://res.cloudinary.com/dr3zgzxx0/image/upload/q_auto:best/v1685501765/01010100askjksajak_rshgzj.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider__item-02 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("https://res.cloudinary.com/dr3zgzxx0/image/upload/v1685348105/77B65945-CC0D-49D1-AA76-10B5165EE5C3_n9kruq.jpg");
+  background: linear-gradient(rgb(0, 13, 107, 0.8), rgb(0, 13, 107, 0.8)),
+    url("https://res.cloudinary.com/dr3zgzxx0/image/upload/q_100,r_2/v1685502141/01010100dsdsdsdsdsds_ptqewe.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider__item-03 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/slider-img/slider-3.jpg");
+  background: linear-gradient(rgb(0, 13, 107, 0.8), rgb(0, 13, 107, 0.8)),
+    url("https://res.cloudinary.com/dr3zgzxx0/image/upload/q_auto:best/v1685502263/01010100jhjhjdfhj_tt18at.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
